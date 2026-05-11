@@ -1,0 +1,23 @@
+{
+  "name": "cse341---project1",
+  "version": "1.0.0",
+  "description": "API RESTFUL",
+  "homepage": "https://github.com/2002-02-20/CSE341---Project1#readme",
+  "bugs": {
+    "url": "https://github.com/2002-02-20/CSE341---Project1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2002-02-20/CSE341---Project1.git"
+  },
+  "license": "ISC",
+  "author": "Derek Moscui",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
