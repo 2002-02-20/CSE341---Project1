@@ -5,10 +5,11 @@
     "description": "API for managing contacts",
     "version": "1.0.0"
   },
-  "host": "localhost:3000/users",
+  "host": "project1-ykh5.onrender.com/users",
   "basePath": "/",
   "schemes": [
-    "http, https"
+    "https",
+    "http"
   ],
   "paths": {
     "/": {
