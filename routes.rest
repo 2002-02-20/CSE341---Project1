@@ -5,6 +5,27 @@ GET http://localhost:3000/users/
 ### Get contact by id
 GET http://localhost:3000/users/6a014a05c32fbb31ac039874
 
+### Post contact 
+POST http://localhost:3000/users/ HTTP/1.1
+{
+    "firstName": "Manuel",
+    "lastName": "Males",
+    "email": "manuelMales@gmail.com",
+    "favoriteColor": "black"
+}
+
+##Put contact
+PUT http://localhost:3000/users/6a0a3854e908458ca17dea2c HTTP/1.1
+{
+    "firstName": "Manuel",
+    "lastName": "Ruiz",
+    "email": "manuelupdate@gmail.com",
+    "favoriteColor": "white"
+}
+
+###delete contact
+DELET http://localhost:3000/users/6a0a3854e908458ca17dea2c HTTP/1.1
+
 
 
 // PRODUCTION
